@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<style>
+    div{
+        padding: 10px 0;
+    }
+    body{
+    
+        background-image: url(../HTML/images/1.png);
+        color: aqua;
+        background-repeat:no-repeat;
+        background-size: cover;
+
+    }
+    h1{
+        text-align: center;
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h1>ENTER YOUR DETAILS</h1>
+    <div>
+        <label>Name:</label>
+        <input type="text" palceholder="Enter your Name">
+
+        <div>
+            <label >Gender:</label>
+            <input type="radio" value="male" name="gender"><span>Male</span>
+            <input type="radio" value="female" name="gender"><span>Female</span>
+        </div>
+
+        <div>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date">
+        </div>
+         
+        <div>
+            <label for="mail">Email:</label>
+            <input type="Email">
+        </div>
+
+        <div>
+            <label for="mobile">Mobile Number:</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="degree">Degree:</label>
+            <select required>
+                <option hidden>Select Degree</option>
+                    <optgroup label="UG">
+                        <option>B.Sc</option>
+                        <option>B.E</option>
+                        <option>B.A</option>
+                        <option>B.Tec</option>
+                    </optgroup>
+                    <optgroup label="PG">
+                        <option>M.Sc</option>
+                        <option>M.E</option>
+                        <option>M.A</option>
+                        <option>M.Tec</option>
+                    </optgroup>
+            </select><br>
+            <label>Branch:</label>
+            <select>
+                <option hidden>Select Branch</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>CIVIL</option>
+                <option>MECH</option>
+                <option>CHEMICAL</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>MATHS</option>
+                <option>PHYSICS</option>
+                <option>CHEMISTRY</option>
+                <option>TAMIL</option>
+                <option>ENGLISH</option>
+            </select><br>
+            <div>
+                <label>Skills:</label><br>
+                <div style="margin: 20px;">
+                    <input type="checkbox"><span>Python</span><br>
+                    <input type="checkbox"><span>HTML</span><br>
+                    <input type="checkbox"><span>CSS</span><br>
+                    <input type="checkbox"><span>Java Script</span>
+                </div>
+            </div>
+
+        <div>
+            <label>Resume:</label><input type="file"><br>
+        </div>
+        <div>
+            <label>Registration Date and Time:</label><input type="datetime-local"><br>
+        </div>    
+            <button>SUBMIT</button>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
